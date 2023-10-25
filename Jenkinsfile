@@ -15,7 +15,7 @@ pipeline {
         stage('checkout') {
             steps {
                 script {
-                    def repoUrl = 'https://github.com/I201753-Shayan/MLOps_Task7.git'
+                    def repoUrl = 'https://github.com/faizanaslam786/mlops_task7.git'
                     def branch = 'main'
                     customFunctions.checkoutCode(repoUrl, branch)
                 }
